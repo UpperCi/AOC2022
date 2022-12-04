@@ -6,41 +6,41 @@ Bad Ok Good Great
 
 ## Languages
 ### Already Familiar
-[x] Python (Day 1, Great)
-[x] C (Day 3, Bad)
+- [x] Python (Day 1, Great)
+- [x] C (Day 3, Bad)
 
-[ ] PHP
-[ ] JavaScript
-[ ] Rust
-[ ] Lua
-[ ] Java
-[ ] Bash
+- [ ] PHP
+- [ ] JavaScript
+- [ ] Rust
+- [ ] Lua
+- [ ] Java
+- [ ] Bash
 
-[ ] C++
-[ ] GDScript
-[ ] C#
+- [ ] C++
+- [ ] GDScript
+- [ ] C#
 
 ### New Languages
-[x] Awk (Day 2, Great)
-[x] Ruby (Day 4, Great)
+- [x] Awk (Day 2, Great)
+- [x] Ruby (Day 4, Great)
 
-[ ] Go
-[ ] Clojure
-[ ] Haskell
-[ ] OCaml
-[ ] Fortran
-[ ] Visual Basic
-[ ] R
-[ ] Julia
+- [ ] Go
+- [ ] Clojure
+- [ ] Haskell
+- [ ] OCaml
+- [ ] Fortran
+- [ ] Visual Basic
+- [ ] R
+- [ ] Julia
 
-[ ] Fish
-[ ] Ok?
-[ ] Wren
-[ ] Fe
-[ ] Matlab
-[ ] Forth
-[ ] Kotlin
-[ ] Scheme
-[ ] D
-[ ] Brainfuck
+- [ ] Fish
+- [ ] Ok?
+- [ ] Wren
+- [ ] Fe
+- [ ] Matlab
+- [ ] Forth
+- [ ] Kotlin
+- [ ] Scheme
+- [ ] D
+- [ ] Brainfuck
 
