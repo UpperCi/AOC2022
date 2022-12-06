@@ -12,4 +12,5 @@ Day 2 - Awk (Great)
 Day 3 - C (Bad)  
 Day 4 - Ruby (Great)  
 Day 5 - PHP (Ok)
+Day 6 - Haskell (Good)
 
