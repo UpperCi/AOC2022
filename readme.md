@@ -7,10 +7,15 @@ Bad Ok Good Great
 
 ## Languages
 ### Already Familiar
-Day 1 - Python (Great)  
-Day 2 - Awk (Great)  
-Day 3 - C (Bad)  
-Day 4 - Ruby (Great)  
+Day 1 - Python (Great)
+
+Day 2 - Awk (Great)
+
+Day 3 - C (Bad)
+
+Day 4 - Ruby (Great)
+
 Day 5 - PHP (Ok)
-Day 6 - Haskell (Good)  
+
+Day 6 - Haskell (Good)
 
