@@ -19,3 +19,5 @@ Day 5 - PHP (Ok)
 
 Day 6 - Haskell (Good)
 
+Day 7 - Rust (Ok)
+
