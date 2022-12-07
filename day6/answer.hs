@@ -12,13 +12,13 @@ unique c src = if charIn c src
 	else unique (head src) (tail src)
 
 -- get index of first four unique characters
-totext :: [Char] -> Int -> Int
-totext s i = if unique (head s) (tail (take 14 s))
+totext :: [Char] -> Int -> Int -> Int
+totext s i step = if unique (head s) (tail (take step s))
 	then i
-	else totext (tail s) (i + 1)
+	else totext (tail s) (i + 1) step
 
 main = do
 	contents <- readFile "packet.txt"
-	print $ (totext contents 0 + 14)
-	print $ length contents
+	print $ (totext contents (0 + 4) 4)
+	print $ (totext contents (0 + 14) 14)
 	

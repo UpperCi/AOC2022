@@ -2,20 +2,13 @@
 use std::fs;
 use std::collections::HashMap;
 
-#[derive(Debug, Clone)]
+#[derive(Clone)]
 enum Item {
 	File(usize),
 	// having calculated the directory size is optional
 	Dir(Vec<String>, Option<usize>)
 }
 
-impl Item {
-	fn get_dir(dir: String) {
-		
-	}
-}
-
-#[derive(Debug)]
 enum Line {
 	CD(String),
 	LS,
@@ -42,7 +35,7 @@ impl Line {
 
 fn calc_size(files: &mut HashMap::<String, Item>, dir: String) -> usize {
 	let current_item = &files[&dir];
-	if let Item::Dir(childs, sz) = current_item.clone() {
+	if let Item::Dir(childs, _) = current_item.clone() {
 		let mut size = 0;
 		for i in childs.iter() {
 			let path = dir.clone() + "/" + i;
@@ -77,7 +70,6 @@ fn main() {
 			},
 			Line::ListDir(s) => {
 				let path = wd.as_str().to_owned() + "/" + s;
-				let dirItem = Item::Dir( Vec::new(), None );
 
 				if let Item::Dir(mut childs, sz) = files[&wd].clone() {
 					childs.push(s.clone());
@@ -87,7 +79,6 @@ fn main() {
 			},
 			Line::ListFile(s, n) => {
 				let path = wd.as_str().to_owned() + "/" + s;
-				let dirItem = Item::File( *n );
 
 				if let Item::Dir(mut childs, sz) = files[&wd].clone() {
 					files.insert(path, Item::File(*n));
