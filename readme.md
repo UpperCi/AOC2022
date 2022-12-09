@@ -21,3 +21,5 @@ Day 6 - Haskell (Good)
 
 Day 7 - Rust (Ok)
 
+Day 8 - Perl (Ok)
+

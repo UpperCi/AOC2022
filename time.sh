@@ -1,0 +1,1 @@
+cd day1 ; time python3 answer.py ; cd ../day2 ; time awk -f answer.awk strats.txt ; cd ../day3 ; time ./a.out ; cd ../day4 ; time ruby answer.rb ; cd ../day5 ; time php answer.php ; cd ../day6 ; time ./answer ; cd ../day7 ; time ./main ; cd .. 
