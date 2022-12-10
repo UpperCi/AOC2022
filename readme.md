@@ -23,3 +23,5 @@ Day 7 - Rust (Ok)
 
 Day 8 - Perl (Ok)
 
+Day 9 - Javascript (Good)
+
