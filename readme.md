@@ -6,7 +6,6 @@ Experience quality of each language used to solve an AOC puzzle.
 Bad Ok Good Great
 
 ## Languages
-### Already Familiar
 Day 1 - Python (Great)
 
 Day 2 - Awk (Great)
@@ -24,4 +23,6 @@ Day 7 - Rust (Ok)
 Day 8 - Perl (Ok)
 
 Day 9 - Javascript (Good)
+
+Day 10 - Clojure (Ok)
 
