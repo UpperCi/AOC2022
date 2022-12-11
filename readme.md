@@ -26,3 +26,4 @@ Day 9 - Javascript (Good)
 
 Day 10 - Clojure (Ok)
 
+Day 11 - Go (Ok)
