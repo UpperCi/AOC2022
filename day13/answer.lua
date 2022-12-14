@@ -1,19 +1,6 @@
 local datafile = io.open("packets.txt")
 local data = datafile:read("a")
 
-function dump(o)
-	if type(o) == 'table' then
-	local s = '{  '
-	for k,v in pairs(o) do
-		if type(k) ~= 'number' then k = '"'..k..'"' end
-		s = s .. dump(v) .. ' '
-	end
-	return s .. ' } '
-	else
-		return tostring(o)
-	end
-end
-
 function parse_tbl(str)
 	str = str:sub(2, #str - 1)
 	local t = {}
